@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1.6rem;
+    background-color: var(--dark);
+}
+
+.header-title {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}

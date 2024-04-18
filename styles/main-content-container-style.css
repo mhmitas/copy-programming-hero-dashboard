@@ -1,0 +1,62 @@
+/* main-content-container */
+.main-content-container {
+    display: flex;
+    /* border: 2px solid; */
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/*  milestone section style */
+.milestone-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 30%;
+    background-color: var(--dark);
+    height: 80vh;
+    width: 100%;
+    overflow-y: auto;
+    /* border: 1px solid blue; */
+    /* Add vertical scrollbar */
+
+}
+
+.hidden {
+    display: none;
+}
+
+/* each milestone */
+.milestone {
+    background-color: var(--miniDark);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* milestone er name/ heading */
+.milestone-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border: 1px solid black;
+    background-color: var(--miniDark);
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+}
+
+.milestone-expand {
+    cursor: pointer;
+}
+
+.module {
+    font-size: 18px;
+    margin: 15px;
+    margin-top: 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--lightDark);
+    display: flex;
+    justify-content: space-between;
+}
